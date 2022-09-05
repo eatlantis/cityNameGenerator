@@ -1,0 +1,9 @@
+venv/
+*.idea
+*.idea/
+**.idea/
+**.mov
+**.MOV
+**.mp4
+
+**.jpg
