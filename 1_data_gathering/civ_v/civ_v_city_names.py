@@ -15,4 +15,4 @@ for name_line in split_names_list:
 
 dataframe_df = pd.DataFrame(civ_city_names)
 dataframe_df.columns = ['civ', 'city']
-dataframe_df.to_csv('ds_civ_v.csv')
+dataframe_df.to_csv('civ_v.csv', index=False)
