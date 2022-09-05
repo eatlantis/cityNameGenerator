@@ -7,8 +7,11 @@ tokenized_dataset = pd.read_csv(tokenized_dataset_file_addr)
 tokenized_labels_dataset_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '1_tokenized_dataset_labels.csv')
 tokenized_labels_dataset = pd.read_csv(tokenized_labels_dataset_file_addr)
 
+if len(tokenized_dataset) != len(tokenized_labels_dataset):
+    raise Exception('Stop! Unequal LabelxValue Lengths')
+
 tokens_list = tokenized_dataset.values.tolist()
-tokens_labels_list = tokenized_labels_dataset.values.tolist()
+tokens_labels_list = tokenized_labels_dataset['1'].values.tolist()
 
 token_counts = {}
 for t_list in tokens_list:
@@ -17,11 +20,10 @@ for t_list in tokens_list:
             token_counts[token] = 0
         token_counts[token] += 1
 
-for t_list in tokens_labels_list:
-    for token in t_list:
-        if token not in token_counts:
-            token_counts[token] = 0
-        token_counts[token] += 1
+for token in tokens_labels_list:
+    if token not in token_counts:
+        token_counts[token] = 0
+    token_counts[token] += 1
 
 token_counts_lists = [[token, token_counts[token]] for token in token_counts]
 

@@ -4,8 +4,9 @@ import pandas as pd
 import random
 import os
 
-NUM_CITIES_GRABBED_RANGE = [3, 10]
+NUM_CITIES_GRABBED_RANGE = [2, 5]
 CITIES_USED_PER_CIVILIZATION = 250
+MAX_LEN = 70
 
 cities_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '0_cities_list.csv')
 cities_file = pd.read_csv(cities_file_addr)
@@ -35,15 +36,18 @@ for civ in civilizations_cities:
         city_text = ','.join(n for n in rand_city_list)
 
         # Chooses a random token for the label, crops up until that point
-        tokenized_value = ModelTools.tokenize_text(city_text)
+        tokenized_value = ModelTools.tokenize_text(city_text, MAX_LEN, ind_chars=True)
         num_tokens = len(tokenized_value)
 
         label_index = random.randint(int(num_tokens * 0.5), num_tokens - 1)
         label = tokenized_value[label_index]
 
+        if len(tokenized_values) != len(tokenized_labels):
+            print('stop')
+
         tokenized_value = tokenized_value[0: label_index]
         tokenized_values.append(tokenized_value)
-        tokenized_labels.append(label)
+        tokenized_labels.append([civ, label])
 
 tokenized_values_df = pd.DataFrame(tokenized_values)
 tokenized_values_df_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '1_tokenized_dataset_values.csv')

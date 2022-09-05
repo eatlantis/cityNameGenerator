@@ -3,18 +3,19 @@ import pandas as pd
 import numpy as np
 import os
 
-encoded_dataset_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '2_encoded_dataset_values.csv')
-encoded_dataset_labels_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '2_encoded_dataset_labels.csv')
+encoded_dataset_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '3_balanced_dataset_values.csv')
+encoded_dataset_labels_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '3_balanced_dataset_labels.csv')
 word_encodings_addr = os.path.join(MASTER_PATH, 'A_dataset', '2a_word_count_file.csv')
 
 MAX_LABEL_LEN = 1
-MAX_VALUE_LEN = 70
+MAX_VALUE_LEN = 74
 
 
 def get_dataset():
     dataset_labels = pd.read_csv(encoded_dataset_labels_file_addr).values.tolist()
     dataset_values = pd.read_csv(encoded_dataset_file_addr).values.tolist()
     word_encodings = pd.read_csv(word_encodings_addr)
+    word_encodings = word_encodings.replace({np.nan: ''}, inplace=False)
 
     max_encoding_key = max(word_encodings['token_key'])
 
@@ -22,7 +23,12 @@ def get_dataset():
                                   for line in dataset_labels])
     dataset_values_np = np.array([prepare_line(line, is_label=False, two_d=True, max_values=max_encoding_key)
                                   for line in dataset_values])
-    return max_encoding_key + 1, dataset_labels_np, dataset_values_np
+
+    encoding_dict = {word_encodings.loc[row_index, 'token_key']: word_encodings.loc[row_index, 'token_value']
+                     for row_index in list(word_encodings.index)}
+    rev_encoding_dict = {word_encodings.loc[row_index, 'token_value']: word_encodings.loc[row_index, 'token_key']
+                     for row_index in list(word_encodings.index)}
+    return max_encoding_key + 1, dataset_labels_np, dataset_values_np, encoding_dict, rev_encoding_dict
 
 
 def prepare_line(line, is_label=False, two_d=False, max_values=None):

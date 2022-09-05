@@ -3,7 +3,7 @@ class ModelTools:
     TEXT_END_TOKEN = 'text_end'
 
     @staticmethod
-    def tokenize_text(text):
+    def tokenize_text(text, max_len, ind_chars=True):
         # Will break text up according to syllabuses, end of line, and commas
         text_tokens = []
         text = str(text).lower()
@@ -14,9 +14,8 @@ class ModelTools:
 
             if ',' == char:
                 token = text[token_start: char_index + 1]
-                text_tokens.append(token)
                 token_start = char_index + 1
-                text_tokens.append(char)
+                text_tokens.append(token)
                 added = True
 
             if added is False:
@@ -26,12 +25,17 @@ class ModelTools:
                 next_char = None if next_char_index is None else text[next_char_index]
                 prev_char = None if prev_char_index is None else text[prev_char_index]
 
-                is_break = ModelTools.is_syllable_break(char, prev_char, next_char)
+                is_break = True
+                if ind_chars is False:
+                    is_break = ModelTools.is_syllable_break(char, prev_char, next_char)
                 if is_break is True:
                     token = text[token_start: char_index + 1]
                     token_start = char_index + 1
-                    text_tokens.append(token)
-        text_tokens.append(ModelTools.TEXT_END_TOKEN)
+                    if char != ',' or prev_char != ',':
+                        text_tokens.append(token)
+        while len(text_tokens) < max_len:
+            text_tokens.append('')
+        # text_tokens.append(ModelTools.TEXT_END_TOKEN)
         return text_tokens
 
     @staticmethod

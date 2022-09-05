@@ -15,10 +15,10 @@ def get_model(num_inputs, pretrained_weights=None):
     inputs = Input(input_size)
     model = Sequential()
     model.add(LSTM(150))
-    model.add(Dense(250, activation='relu'))
-    model.add(Dense(num_inputs, activation='sigmoid'))
+    model.add(Dense(num_inputs, activation='softmax'))
 
-    model.compile(optimizer=Adam(learning_rate=1e-4), loss='categorical_crossentropy', metrics=['accuracy'])
+    model.compile(optimizer=Adam(learning_rate=1e-2),
+                  loss='categorical_crossentropy', metrics=['accuracy'])
 
     # model.summary()
 
