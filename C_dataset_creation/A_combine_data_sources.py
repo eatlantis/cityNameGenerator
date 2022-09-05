@@ -2,7 +2,7 @@ from masterPathAddress import MASTER_PATH
 import pandas as pd
 import os
 
-data_sources_folder_addr = os.path.join(MASTER_PATH, '1_data_gathering')
+data_sources_folder_addr = os.path.join(MASTER_PATH, 'B_data_gathering')
 data_sources_folder_contents = os.listdir(data_sources_folder_addr)
 
 civilization_city_names = []
@@ -19,7 +19,7 @@ for source_name in data_sources_folder_contents:
         for d_list in dataset_lists:
             civilization_city_names.append(d_list)
 
-dataset_output_file_addr = os.path.join(MASTER_PATH, '0_dataset', '0_cities_list.csv')
+dataset_output_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '0_cities_list.csv')
 cities_df = pd.DataFrame(civilization_city_names)
 cities_df.columns = ['civ', 'city']
 cities_df.to_csv(dataset_output_file_addr, index=False)

@@ -6,7 +6,7 @@ class ModelTools:
     def tokenize_text(text):
         # Will break text up according to syllabuses, end of line, and commas
         text_tokens = []
-        text = text.lower()
+        text = str(text).lower()
         text_len = len(text)
         token_start = 0
         for char_index, char in enumerate(text):
