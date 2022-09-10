@@ -109,7 +109,7 @@ model.fit(x_train, y_train, epochs=5000, batch_size=128, steps_per_epoch=100,
 
 model.save(model_address)
 
-loss_label = 'Mean Squared Error'
+loss_label = 'Categorical Crossentropy'
 metrics = 'accuracy'
 
 loss_chart_name = f'./pics/{model_name}_loss.png'
