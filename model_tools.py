@@ -1,3 +1,8 @@
+import re
+
+DIGIT_PATTERN = re.compile('[0-9]')
+
+
 class ModelTools:
     SYLLABLE_ENDS = 'a', 'e', 'i', 'o', 'u', 'y'
     TEXT_END_TOKEN = 'text_end'
@@ -7,6 +12,7 @@ class ModelTools:
         # Will break text up according to syllabuses, end of line, and commas
         text_tokens = []
         text = str(text).lower()
+        text = re.sub(DIGIT_PATTERN, '', text)
         text_len = len(text)
         token_start = 0
         for char_index, char in enumerate(text):

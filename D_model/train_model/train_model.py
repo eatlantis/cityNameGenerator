@@ -33,7 +33,7 @@ print(y_train.shape)
 # print('Trainable params: {:,}'.format(trainable_count))
 # print('Non-trainable params: {:,}'.format(non_trainable_count))
 
-model_name = 'test5'
+model_name = 'main2'
 model_folder = 'test' if 'test' in model_name else 'main'
 
 model_address = f'../model_store/{model_folder}/{model_name}.hdf5'

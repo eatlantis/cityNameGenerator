@@ -6,7 +6,7 @@ import random
 import os
 
 NUM_CITIES_GRABBED_RANGE = [1, 5]
-CITIES_USED_PER_CIVILIZATION = 250
+CITIES_USED_PER_CIVILIZATION = 500
 MAX_LEN = 15
 
 cities_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '0_cities_list.csv')
@@ -23,38 +23,38 @@ tokenized_labels = []
 tokenized_values = []
 for civ in tqdm(civilizations_cities, desc='Adding Civilization'):
     this_civ_cities = civilizations_cities[civ]
-
-    for _ in tqdm(range(CITIES_USED_PER_CIVILIZATION), desc='Adding City Data'):
-        random_num_of_cities = random.randint(NUM_CITIES_GRABBED_RANGE[0], NUM_CITIES_GRABBED_RANGE[1])
-        rand_city_list = []
-        while len(rand_city_list) < (random_num_of_cities + 1):
-            random_city_index = random.randint(0, len(this_civ_cities) - 1)
-            random_city_name = this_civ_cities[random_city_index]
-            if str(random_city_name) != 'nan':
+    if len(this_civ_cities) > 10:
+        for _ in tqdm(range(CITIES_USED_PER_CIVILIZATION), desc='Adding City Data'):
+            random_num_of_cities = random.randint(NUM_CITIES_GRABBED_RANGE[0], NUM_CITIES_GRABBED_RANGE[1])
+            rand_city_list = []
+            while len(rand_city_list) < (random_num_of_cities + 1):
+                random_city_index = random.randint(0, len(this_civ_cities) - 1)
+                random_city_name = this_civ_cities[random_city_index]
                 if str(random_city_name) != 'nan':
-                    rand_city_list.append(random_city_name)
+                    if str(random_city_name) != 'nan':
+                        rand_city_list.append(random_city_name)
 
-        city_text = ','.join(n for n in rand_city_list)
+            city_text = ','.join(n for n in rand_city_list)
 
-        # Chooses a random token for the label, crops up until that point
-        tokenized_value = ModelTools.tokenize_text(city_text, MAX_LEN, ind_chars=True)
-        num_tokens = len(tokenized_value)
+            # Chooses a random token for the label, crops up until that point
+            tokenized_value = ModelTools.tokenize_text(city_text, MAX_LEN, ind_chars=True)
+            num_tokens = len(tokenized_value)
 
-        label_index = random.randint(int(num_tokens * 0.5), num_tokens - 1)
-        label = tokenized_value[label_index]
+            label_index = random.randint(int(num_tokens * 0.5), num_tokens - 1)
+            label = tokenized_value[label_index]
 
-        if len(tokenized_values) != len(tokenized_labels):
-            print('stop')
+            if len(tokenized_values) != len(tokenized_labels):
+                print('stop')
 
-        tokenized_value = tokenized_value[0: label_index]
-        while len(tokenized_value) < MAX_LEN:
-            tokenized_value.insert(0, '')
+            tokenized_value = tokenized_value[0: label_index]
+            while len(tokenized_value) < MAX_LEN:
+                tokenized_value.insert(0, '')
 
-        if len(tokenized_value) > MAX_LEN:
-            tokenized_value = tokenized_value[-MAX_LEN:]
+            if len(tokenized_value) > MAX_LEN:
+                tokenized_value = tokenized_value[-MAX_LEN:]
 
-        tokenized_values.append(tokenized_value)
-        tokenized_labels.append([civ, label])
+            tokenized_values.append(tokenized_value)
+            tokenized_labels.append([civ, label])
 
 tokenized_values_df = pd.DataFrame(tokenized_values)
 tokenized_values_df_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '1_tokenized_dataset_values.csv')

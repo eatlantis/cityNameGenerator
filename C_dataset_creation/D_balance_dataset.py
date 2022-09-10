@@ -15,7 +15,7 @@ dataset_labels_columns = list(dataset_labels_file.columns)
 
 print(f'Input Dataset size of: {len(dataset_values_file)}')
 
-desired_dataset_size = 50000
+desired_dataset_size = 500000
 
 min_optionality = 100000
 max_optionality = 0
