@@ -1,4 +1,698 @@
 civ,city
+autonomous,hong kong
+autonomous,macau
+municipal,beijing
+municipal,chongqing
+municipal,shanghai
+municipal,tianjin
+anhui,anqing
+anhui,bengbu
+anhui,bozhou
+anhui,chaohu
+anhui,chizhou
+anhui,chuzhou
+anhui,fuyang
+anhui,guangde
+anhui,hefei
+anhui,huaibei
+anhui,huainan
+anhui,huangshan
+anhui,jieshou
+anhui,luan
+anhui,maanshan
+anhui,mingguang
+anhui,ningguo
+anhui,qianshan
+anhui,suzhou
+anhui,tianchang
+anhui,tongcheng
+anhui,tongling
+anhui,wuhu
+anhui,wuwei
+anhui,xuancheng
+fujian,fuan
+fujian,fuding
+fujian,fuqing
+fujian,fuzhou
+fujian,jianou
+fujian,jinjiang
+fujian,longhai
+fujian,longyan
+fujian,nanan
+fujian,nanping
+fujian,ningde
+fujian,putian
+fujian,quanzhou
+fujian,sanming
+fujian,shaowu
+fujian,shishi
+fujian,wuyishan
+fujian,xiamen
+fujian,yongan
+fujian,zhangping
+fujian,zhangzhou
+gansu,baiyin
+gansu,dingxi
+gansu,dunhuang
+gansu,hezuo
+gansu,huating
+gansu,jiayuguan
+gansu,jinchang
+gansu,jiuquan
+gansu,lanzhou
+gansu,linxia
+gansu,longnan
+gansu,pingliang
+gansu,qingyang
+gansu,tianshui
+gansu,wuwei
+gansu,yumen
+gansu,zhangye
+guangdong,chaozhou
+guangdong,dongguan
+guangdong,enping
+guangdong,foshan
+guangdong,gaozhou
+guangdong,guangzhou
+guangdong,heshan
+guangdong,heyuan
+guangdong,huazhou
+guangdong,huizhou
+guangdong,jiangmen
+guangdong,jieyang
+guangdong,kaiping
+guangdong,lechang
+guangdong,leizhou
+guangdong,lianjiang
+guangdong,lianzhou
+guangdong,lufeng
+guangdong,luoding
+guangdong,maoming
+guangdong,meizhou
+guangdong,nanxiong
+guangdong,puning
+guangdong,qingyuan
+guangdong,shantou
+guangdong,shanwei
+guangdong,shaoguan
+guangdong,shenzhen
+guangdong,sihui
+guangdong,taishan
+guangdong,wuchuan
+guangdong,xingning
+guangdong,xinyi
+guangdong,yangchun
+guangdong,yangjiang
+guangdong,yingde
+guangdong,yunfu
+guangdong,zhanjiang
+guangdong,zhaoqing
+guangdong,zhongshan
+guangdong,zhuhai
+guangxi,baise
+guangxi,beihai
+guangxi,beiliu
+guangxi,cenxi
+guangxi,chongzuo
+guangxi,dongxing
+guangxi,fangchenggang
+guangxi,guigang
+guangxi,guilin
+guangxi,guiping
+guangxi,hechi
+guangxi,hengzhou
+guangxi,heshan
+guangxi,hezhou
+guangxi,jingxi
+guangxi,laibin
+guangxi,lipu
+guangxi,liuzhou
+guangxi,nanning
+guangxi,pingguo
+guangxi,pingxiang
+guangxi,qinzhou
+guangxi,wuzhou
+guangxi,yulin
+guizhou,anshun
+guizhou,bijie
+guizhou,chishui
+guizhou,duyun
+guizhou,fuquan
+guizhou,guiyang
+guizhou,kaili
+guizhou,liupanshui
+guizhou,panzhou
+guizhou,qianxi
+guizhou,qingzhen
+guizhou,renhuai
+guizhou,tongren
+guizhou,xingren
+guizhou,xingyi
+guizhou,zunyi
+hainan,danzhou
+hainan,dongfang
+hainan,haikou
+hainan,qionghai
+hainan,sansha
+hainan,sanya
+hainan,wanning
+hainan,wenchang
+hainan,wuzhishan
+hebei,anguo
+hebei,baoding
+hebei,bazhou
+hebei,botou
+hebei,cangzhou
+hebei,chengde
+hebei,dingzhou
+hebei,gaobeidian
+hebei,handan
+hebei,hengshui
+hebei,hejian
+hebei,huanghua
+hebei,jinzhou
+hebei,langfang
+hebei,luanzhou
+hebei,nangong
+hebei,pingquan
+hebei,qianan
+hebei,qinhuangdao
+hebei,renqiu
+hebei,sanhe
+hebei,shahe
+hebei,shenzhou
+hebei,shijiazhuang
+hebei,tangshan
+hebei,xinji
+hebei,wuan
+hebei,xingtai
+hebei,xinle
+hebei,zhangjiakou
+hebei,zhuozhou
+hebei,zunhua
+heilongjiang,anda
+heilongjiang,beian
+heilongjiang,daqing
+heilongjiang,dongning
+heilongjiang,fujin
+heilongjiang,fuyuan
+heilongjiang,hailin
+heilongjiang,hailun
+heilongjiang,harbin
+heilongjiang,hegang
+heilongjiang,heihe
+heilongjiang,hulin
+heilongjiang,jiamusi
+heilongjiang,jixi
+heilongjiang,mishan
+heilongjiang,mohe
+heilongjiang,mudanjiang
+heilongjiang,muling
+heilongjiang,nehe
+heilongjiang,nenjiang
+heilongjiang,ningan
+heilongjiang,qiqihar
+heilongjiang,qitaihe
+heilongjiang,shangzhi
+heilongjiang,shuangyashan
+heilongjiang,suifenhe
+heilongjiang,suihua
+heilongjiang,tieli
+heilongjiang,tongjiang
+heilongjiang,wuchang
+heilongjiang,wudalianchi
+heilongjiang,yichun
+heilongjiang,zhaodong
+henan,anyang
+henan,changge
+henan,changyuan
+henan,dengfeng
+henan,dengzhou
+henan,gongyi
+henan,hebi
+henan,huixian
+henan,jiaozuo
+henan,jiyuan
+henan,kaifeng
+henan,lingbao
+henan,linzhou
+henan,luohe
+henan,luoyang
+henan,mengzhou
+henan,nanyang
+henan,pingdingshan
+henan,puyang
+henan,qinyang
+henan,ruzhou
+henan,sanmenxia
+henan,shangqiu
+henan,weihui
+henan,wugang
+henan,xiangcheng
+henan,xingyang
+henan,xinmi
+henan,xinxiang
+henan,xinyang
+henan,xinzheng
+henan,xuchang
+henan,yanshi
+henan,yima
+henan,yongcheng
+henan,yuzhou
+henan,zhengzhou
+henan,zhoukou
+henan,zhumadian
+hubei,anlu
+hubei,chibi
+hubei,dangyang
+hubei,danjiangkou
+hubei,daye
+hubei,enshi
+hubei,ezhou
+hubei,guangshui
+hubei,hanchuan
+hubei,honghu
+hubei,huanggang
+hubei,huangshi
+hubei,jianli
+hubei,jingmen
+hubei,jingshan
+hubei,jingzhou
+hubei,laohekou
+hubei,lichuan
+hubei,macheng
+hubei,qianjiang
+hubei,shishou
+hubei,shiyan
+hubei,suizhou
+hubei,songzi
+hubei,tianmen
+hubei,wuhan
+hubei,wuxue
+hubei,xiangyang
+hubei,xianning
+hubei,xiantao
+hubei,xiaogan
+hubei,yichang
+hubei,yicheng
+hubei,yidu
+hubei,yingcheng
+hubei,zaoyang
+hubei,zhijiang
+hubei,zhongxiang
+hunan,changde
+hunan,changning
+hunan,changsha
+hunan,chenzhou
+hunan,hengyang
+hunan,hongjiang
+hunan,huaihua
+hunan,jinshi
+hunan,jishou
+hunan,leiyang
+hunan,lengshuijiang
+hunan,lianyuan
+hunan,liling
+hunan,linxiang
+hunan,liuyang
+hunan,loudi
+hunan,miluo
+hunan,ningxiang
+hunan,shaoshan
+hunan,shaodong
+hunan,shaoyang
+hunan,wugang
+hunan,xiangtan
+hunan,xiangxiang
+hunan,yiyang
+hunan,yongzhou
+hunan,yuanjiang
+hunan,yueyang
+hunan,zhangjiajie
+hunan,zhuzhou
+hunan,zixing
+inner mongolia,arxan
+inner mongolia,baotou
+inner mongolia,bayannur
+inner mongolia,chifeng
+inner mongolia,erenhot
+inner mongolia,ergun
+inner mongolia,fengzhen
+inner mongolia,genhe
+inner mongolia,hohhot
+inner mongolia,holingol
+inner mongolia,hulunbuir
+inner mongolia,manzhouli
+inner mongolia,ordos
+inner mongolia,tongliao
+inner mongolia,ulanhot
+inner mongolia,ulanqab
+inner mongolia,wuhai
+inner mongolia,xilinhot
+inner mongolia,yakeshi
+inner mongolia,zhalantun
+jiangsu,changshu
+jiangsu,changzhou
+jiangsu,danyang
+jiangsu,dongtai
+jiangsu,gaoyou
+jiangsu,haian
+jiangsu,huaian
+jiangsu,jiangyin
+jiangsu,jingjiang
+jiangsu,jurong
+jiangsu,liyang
+jiangsu,lianyungang
+jiangsu,kunshan
+jiangsu,nanjing
+jiangsu,nantong
+jiangsu,pizhou
+jiangsu,qidong
+jiangsu,rugao
+jiangsu,suqian
+jiangsu,suzhou
+jiangsu,taicang
+jiangsu,taixing
+jiangsu,taizhou
+jiangsu,wuxi
+jiangsu,xinghua
+jiangsu,xinyi
+jiangsu,xuzhou
+jiangsu,yancheng
+jiangsu,yangzhong
+jiangsu,yangzhou
+jiangsu,yixing
+jiangsu,yizheng
+jiangsu,zhangjiagang
+jiangsu,zhenjiang
+jiangxi,dexing
+jiangxi,fengcheng
+jiangxi,fuzhou
+jiangxi,ganzhou
+jiangxi,gaoan
+jiangxi,gongqingcheng
+jiangxi,guixi
+jiangxi,jian
+jiangxi,jingdezhen
+jiangxi,jinggangshan
+jiangxi,jiujiang
+jiangxi,leping
+jiangxi,longnan
+jiangxi,lushan
+jiangxi,nanchang
+jiangxi,pingxiang
+jiangxi,ruichang
+jiangxi,ruijin
+jiangxi,shangrao
+jiangxi,xinyu
+jiangxi,yichun
+jiangxi,yingtan
+jiangxi,zhangshu
+jilin,baicheng
+jilin,baishan
+jilin,changchun
+jilin,daan
+jilin,dehui
+jilin,dunhua
+jilin,fuyu
+jilin,gongzhuling
+jilin,helong
+jilin,huadian
+jilin,hunchun
+jilin,jian
+jilin,jiaohe
+jilin,jilin
+jilin,liaoyuan
+jilin,linjiang
+jilin,longjing
+jilin,meihekou
+jilin,panshi
+jilin,shuangliao
+jilin,shulan
+jilin,siping
+jilin,songyuan
+jilin,taonan
+jilin,tonghua
+jilin,tumen
+jilin,yanji
+jilin,yushu
+liaoning,anshan
+liaoning,benxi
+liaoning,beipiao
+liaoning,beizhen
+liaoning,chaoyang
+liaoning,dalian
+liaoning,dandong
+liaoning,dashiqiao
+liaoning,dengta
+liaoning,diaobingshan
+liaoning,donggang
+liaoning,fengcheng
+liaoning,fushun
+liaoning,fuxin
+liaoning,gaizhou
+liaoning,haicheng
+liaoning,huludao
+liaoning,jinzhou
+liaoning,kaiyuan
+liaoning,liaoyang
+liaoning,linghai
+liaoning,lingyuan
+liaoning,panjin
+liaoning,shenyang
+liaoning,tieling
+liaoning,wafangdian
+liaoning,xingcheng
+liaoning,xinmin
+liaoning,yingkou
+liaoning,zhuanghe
+ningxia,guyuan
+ningxia,lingwu
+ningxia,qingtongxia
+ningxia,shizuishan
+ningxia,wuzhong
+ningxia,yinchuan
+ningxia,zhongwei
+qinghai,delingha
+qinghai,golmud
+qinghai,haidong
+qinghai,mangnai
+qinghai,tongren
+qinghai,xining
+qinghai,yushu
+shaanxi,ankang
+shaanxi,baoji
+shaanxi,binzhou
+shaanxi,hancheng
+shaanxi,hanzhong
+shaanxi,huayin
+shaanxi,shangluo
+shaanxi,shenmu
+shaanxi,tongchuan
+shaanxi,weinan
+shaanxi,xian
+shaanxi,xianyang
+shaanxi,xingping
+shaanxi,xunyang
+shaanxi,yanan
+shaanxi,yulin
+shaanxi,zichang
+shandong,anqiu
+shandong,binzhou
+shandong,changyi
+shandong,dezhou
+shandong,dongying
+shandong,feicheng
+shandong,gaomi
+shandong,haiyang
+shandong,heze
+shandong,jiaozhou
+shandong,jinan
+shandong,jining
+shandong,laixi
+shandong,laiyang
+shandong,laizhou
+shandong,leling
+shandong,liaocheng
+shandong,linqing
+shandong,linyi
+shandong,longkou
+shandong,pingdu
+shandong,qingdao
+shandong,qingzhou
+shandong,qixia
+shandong,qufu
+shandong,rizhao
+shandong,rongcheng
+shandong,rushan
+shandong,shouguang
+shandong,taian
+shandong,tengzhou
+shandong,weifang
+shandong,weihai
+shandong,xintai
+shandong,yantai
+shandong,yucheng
+shandong,zaozhuang
+shandong,zhaoyuan
+shandong,zhucheng
+shandong,zibo
+shandong,zoucheng
+shandong,zouping
+shanxi,changzhi
+shanxi,datong
+shanxi,fenyang
+shanxi,gaoping
+shanxi,gujiao
+shanxi,hejin
+shanxi,houma
+shanxi,huairen
+shanxi,huozhou
+shanxi,jiexiu
+shanxi,jincheng
+shanxi,jinzhong
+shanxi,linfen
+shanxi,luliang
+shanxi,shuozhou
+shanxi,taiyuan
+shanxi,xiaoyi
+shanxi,xinzhou
+shanxi,yangquan
+shanxi,yongji
+shanxi,yuncheng
+shanxi,yuanping
+sichuan,barkam
+sichuan,bazhong
+sichuan,chengdu
+sichuan,chongzhou
+sichuan,dazhou
+sichuan,deyang
+sichuan,dujiangyan
+sichuan,emeishan
+sichuan,guangan
+sichuan,guanghan
+sichuan,guangyuan
+sichuan,huaying
+sichuan,huili
+sichuan,jiangyou
+sichuan,jianyang
+sichuan,kangding
+sichuan,langzhong
+sichuan,leshan
+sichuan,longchang
+sichuan,luzhou
+sichuan,mianzhu
+sichuan,meishan
+sichuan,mianyang
+sichuan,nanchong
+sichuan,neijiang
+sichuan,panzhihua
+sichuan,pengzhou
+sichuan,qionglai
+sichuan,shifang
+sichuan,shehong
+sichuan,suining
+sichuan,wanyuan
+sichuan,xichang
+sichuan,yaan
+sichuan,yibin
+sichuan,zigong
+sichuan,ziyang
+tibet,lhasa
+tibet,nagqu
+tibet,nyingchi
+tibet,qamdo
+tibet,shannan
+tibet,xigaze
+xinjiang,aksu
+xinjiang,alashankou
+xinjiang,altay
+xinjiang ,aral
+xinjiang,artux
+xinjiang ,beitun
+xinjiang,bole
+xinjiang,changji
+xinjiang,fukang
+xinjiang,hami
+xinjiang,hotan
+xinjiang ,huyanghe
+xinjiang,karamay
+xinjiang,kashgar
+xinjiang,khorgas
+xinjiang ,kokdala
+xinjiang,korla
+xinjiang ,kunyu
+xinjiang,kuqa
+xinjiang,kuytun
+xinjiang,shawan
+xinjiang ,shihezi
+xinjiang ,shuanghe
+xinjiang,tacheng
+xinjiang ,tiemenguan
+xinjiang ,tumxuk
+xinjiang,turpan
+xinjiang,urumqi
+xinjiang ,wujiaqu
+xinjiang,wusu
+xinjiang ,xinxing
+xinjiang,yining
+yunnan,anning
+yunnan,baoshan
+yunnan,chengjiang
+yunnan,chuxiong
+yunnan,dali
+yunnan,gejiu
+yunnan,jinghong
+yunnan,kaiyuan
+yunnan,kunming
+yunnan,lincang
+yunnan,lijiang
+yunnan,lufeng
+yunnan,lushui
+yunnan,mangshi
+yunnan,mengzi
+yunnan,mile
+yunnan,puer
+yunnan,qujing
+yunnan,ruili
+yunnan,shangrila
+yunnan,shuifu
+yunnan,tengchong
+yunnan,wenshan
+yunnan,xuanwei
+yunnan,yuxi
+yunnan,zhaotong
+zhejiang,cixi
+zhejiang,dongyang
+zhejiang,haining
+zhejiang,hangzhou
+zhejiang,huzhou
+zhejiang,jiande
+zhejiang,jiangshan
+zhejiang,jiaxing
+zhejiang,jinhua
+zhejiang,lanxi
+zhejiang,linhai
+zhejiang,lishui
+zhejiang,longgang
+zhejiang,longquan
+zhejiang,ningbo
+zhejiang,pinghu
+zhejiang,quzhou
+zhejiang,ruian
+zhejiang,shaoxing
+zhejiang,shengzhou
+zhejiang,taizhou
+zhejiang,tongxiang
+zhejiang,wenling
+zhejiang,wenzhou
+zhejiang,yiwu
+zhejiang,yongkang
+zhejiang,yueqing
+zhejiang,yuhuan
+zhejiang,yuyao
+zhejiang,zhoushan
+zhejiang,zhuji
 america,washington
 america,new york
 america,boston
@@ -716,7 +1410,7 @@ siam,luang prabang
 siam,uttaradit
 siam,chiang thong
 siam,phrae
-siam,
+siam,nan
 siam,tak
 siam,suphanburi
 siam,hongsawadee
@@ -760,3 +1454,929 @@ songhai,ouatagouna
 songhai,dori
 songhai,bamba
 songhai,segou
+denmark,copenhagen
+denmark,aarhus
+denmark,odense
+denmark,aalborg
+denmark,esbjerg
+denmark,randers
+denmark,kolding
+denmark,horsens
+denmark,vejle
+denmark,roskilde
+denmark,herning
+denmark,horsholm
+denmark,helsingor
+denmark,silkeborg
+denmark,naestved
+denmark,fredericia
+denmark,viborg
+denmark,koge
+denmark,holstebro
+denmark,taastrup
+denmark,slagelse
+denmark,hillerod
+denmark,holbaek
+denmark,sonderborg
+denmark,svendborg
+denmark,hjorring
+denmark,frederikshavn
+denmark,norresundby
+denmark,ringsted
+denmark,haderslev
+denmark,stenlose
+denmark,skive
+denmark,birkerod
+denmark,farum
+denmark,smorumnedre
+denmark,skanderborg
+denmark,nyborg
+denmark,nykobing f
+denmark,lillerod
+denmark,kalundborg
+denmark,frederikssund
+denmark,aabenraa
+denmark,solrod strand
+denmark,ikast
+denmark,middelfart
+denmark,grenaa
+denmark,korsor
+denmark,varde
+denmark,ronne
+denmark,thisted
+denmark,vaerlose
+denmark,nakskov
+denmark,bronderslev
+denmark,frederiksvaerk
+denmark,dragor
+denmark,vordingborg
+denmark,hedehuseneflong
+denmark,hobro
+denmark,odder
+denmark,hedenstedlosning
+denmark,haslev
+denmark,lystrup
+denmark,struer
+denmark,jyllinge
+denmark,ringkobing
+denmark,grindsted
+denmark,vejen
+denmark,humlebaek
+denmark,nykobing m
+denmark,saeby
+denmark,hundested
+denmark,fredensborg
+denmark,bedermalling
+denmark,galtenskovby
+denmark,ribe
+denmark,aars
+denmark,helsinge
+denmark,hadsten
+denmark,skagen
+denmark,nivå
+denmark,soro
+denmark,logtenskodstrup
+denmark,skjern
+denmark,horning
+denmark,tonder
+denmark,hinnerup
+denmark,vojens
+denmark,bjerringbro
+denmark,stovring
+denmark,ebeltoft
+denmark,svenstrup
+denmark,brande
+denmark,bramming
+denmark,faaborg
+denmark,hammel
+denmark,lemvig
+denmark,slangerup
+denmark,gilleleje
+denmark,skaelskor
+denmark,billund
+denmark,assens
+denmark,rodekro
+denmark,ry
+denmark,nordborg
+denmark,kerteminde
+denmark,hirtshals
+denmark,aabybro
+denmark,ringe
+denmark,maribo
+denmark,hornslet
+denmark,munkebo
+denmark,hellebaekålsgårde
+denmark,borkop
+denmark,tune
+denmark,nibe
+denmark,nykobing s
+denmark,otterup
+denmark,hornbaek
+denmark,kjellerup
+denmark,fensmark
+denmark,vamdrup
+denmark,mårslet
+denmark,hadsund
+denmark,klarup
+denmark,bellinge
+denmark,viby sj
+denmark,borup
+denmark,give
+denmark,rudkobing
+denmark,brorup
+denmark,sakskobing
+denmark,strib
+denmark,padborg
+denmark,svogerslev
+denmark,jyderup
+denmark,vodskov
+denmark,hong
+denmark,videbaek
+denmark,jaegerspris
+denmark,gråsten
+denmark,stroby egede
+denmark,havdrup
+denmark,svejbaek
+denmark,sunds
+denmark,logstor
+denmark,kirke hvalso
+denmark,langeskov
+denmark,vildbjerg
+denmark,lyngeuggelose
+denmark,faxe
+denmark,dianalund
+denmark,juelsminde
+denmark,tarm
+denmark,olgod
+denmark,praesto
+denmark,årslev
+denmark,hjallerup
+denmark,bogense
+denmark,stege
+denmark,solbjerg
+denmark,tollose
+denmark,harlev
+denmark,nexo
+denmark,braedstrup
+denmark,graested
+denmark,logumkloster
+denmark,gistrup
+denmark,hjortshoj
+denmark,frederiksberg
+denmark,assentoft
+denmark,jelling
+denmark,virklund
+denmark,dronninglund
+denmark,store heddinge
+denmark,farso
+denmark,fjerritslev
+denmark,taulov
+denmark,storvorde
+denmark,broager
+denmark,toftlund
+denmark,augustenborg
+denmark,glamsbjerg
+denmark,thuro
+denmark,aulum
+denmark,vissenbjerg
+denmark,skibby
+denmark,sonderso
+denmark,vinderup
+denmark,aarup
+denmark,ejby
+denmark,skaerbaek
+denmark,holsted
+denmark,lunderskov
+denmark,sindal
+denmark,hvide sande
+denmark,brejning
+denmark,auning
+denmark,bjaeverskov
+denmark,sabro
+denmark,sankt klemens
+denmark,skorping
+denmark,norre åby
+denmark,christiansfeld
+denmark,asnaes
+denmark,pandrup
+denmark,ronde
+denmark,ganlose
+denmark,trige
+denmark,langå
+denmark,svinninge
+denmark,faxe ladeplads
+denmark,oksbol
+denmark,sundby
+denmark,hojslev stationsby
+denmark,vestbjerg
+denmark,tinglev
+denmark,ullerslev
+denmark,frejlev
+denmark,aalestrup
+denmark,soften
+denmark,torring
+denmark,hurup
+denmark,rodding
+denmark,brovst
+denmark,tjaereborg
+denmark,nordby
+denmark,skaevinge
+denmark,horuphav
+denmark,kibaek
+denmark,hårlev
+denmark,gundsomagle
+denmark,gram
+denmark,kås
+denmark,liseleje
+denmark,vester hassing
+denmark,guderup
+denmark,stoholm
+denmark,forlev
+denmark,starup
+denmark,horve
+denmark,nyråd
+denmark,arden
+denmark,mariager
+maharashtra,mumbai
+delhi,delhi
+karnataka,bangalore
+telangana,hyderabad
+gujarat,ahmedabad
+tamil nadu,chennai
+west bengal,kolkata
+gujarat,surat
+maharashtra,pune
+rajasthan,jaipur
+uttar pradesh,lucknow
+uttar pradesh,kanpur
+maharashtra,nagpur
+madhya pradesh,indore
+maharashtra,thane
+madhya pradesh,bhopal
+andhra pradesh,visakhapatnam
+maharashtra,pimprichinchwad
+bihar,patna
+gujarat,vadodara
+uttar pradesh,ghaziabad
+punjab,ludhiana
+uttar pradesh,agra
+maharashtra,nashik
+haryana,faridabad
+uttar pradesh,meerut
+gujarat,rajkot
+maharashtra,kalyandombivli
+maharashtra,vasaivirar
+uttar pradesh,varanasi
+jammu and kashmir,srinagar
+maharashtra,aurangabad
+jharkhand,dhanbad
+punjab,amritsar
+maharashtra,navi mumbai
+uttar pradesh,allahabad
+west bengal,howrah
+jharkhand,ranchi
+madhya pradesh,gwalior
+madhya pradesh,jabalpur
+tamil nadu,coimbatore
+andhra pradesh,vijayawada
+rajasthan,jodhpur
+tamil nadu,madurai
+chhattisgarh,raipur
+rajasthan,kota
+chandigarh,chandigarh
+assam,guwahati
+maharashtra,solapur
+karnataka,hubliadharwad
+karnataka,mysore
+tamil nadu,tiruchirappalli
+uttar pradesh,bareilly
+uttar pradesh,aligarh
+tamil nadu,tiruppur
+haryana,gurgaon
+uttar pradesh,moradabad
+punjab,jalandhar
+odisha,bhubaneswar
+tamil nadu,salem
+telangana,warangal
+maharashtra,mirabhayandar
+maharashtra,jalgaon
+andhra pradesh,guntur
+kerala,thiruvananthapuram
+maharashtra,bhiwandi
+uttar pradesh,saharanpur
+uttar pradesh,gorakhpur
+rajasthan,bikaner
+maharashtra,amravati
+uttar pradesh,noida
+jharkhand,jamshedpur
+chhattisgarh,bhilai
+odisha,cuttack
+uttar pradesh,firozabad
+kerala,kochi
+andhra pradesh,nellore
+gujarat,bhavnagar
+uttarakhand,dehradun
+west bengal,durgapur
+west bengal,asansol
+odisha,rourkela
+maharashtra,nanded
+maharashtra,kolhapur
+rajasthan,ajmer
+maharashtra,akola
+karnataka,gulbarga
+gujarat,jamnagar
+madhya pradesh,ujjain
+uttar pradesh,loni
+west bengal,siliguri
+uttar pradesh,jhansi
+maharashtra,ulhasnagar
+jammu and kashmir,jammu
+maharashtra,sanglimiraj & kupwad
+karnataka,mangalore
+tamil nadu,erode
+karnataka,belgaum
+andhra pradesh,kurnool
+tamil nadu,ambattur
+andhra pradesh,rajahmundry
+tamil nadu,tirunelveli
+maharashtra,malegaon
+bihar,gaya
+rajasthan,udaipur
+tamil nadu,karur
+andhra pradesh,kakinada
+karnataka,davanagere
+kerala,kozhikode
+west bengal,maheshtala
+west bengal,rajpur sonarpur
+jharkhand,bokaro
+west bengal,south dum dum
+karnataka,bellary
+punjab,patiala
+west bengal,gopalpur
+tripura,agartala
+bihar,bhagalpur
+uttar pradesh,muzaffarnagar
+west bengal,bhatpara
+west bengal,panihati
+maharashtra,latur
+maharashtra,dhule
+haryana,rohtak
+madhya pradesh,sagar
+chhattisgarh,korba
+rajasthan,bhilwara
+odisha,berhampur
+bihar,muzaffarpur
+maharashtra,ahmednagar
+uttar pradesh,mathura
+kerala,kollam
+tamil nadu,avadi
+andhra pradesh,kadapa
+andhra pradesh,anantapuram
+west bengal,kamarhati
+chhattisgarh,bilaspur
+odisha,sambalpur
+uttar pradesh,shahjahanpur
+maharashtra,satara
+karnataka,bijapur
+uttar pradesh,rampur
+karnataka,shimoga
+maharashtra,chandrapur
+gujarat,junagadh
+kerala,thrissur
+rajasthan,alwar
+west bengal,bardhaman
+west bengal,kulti
+telangana,nizamabad
+maharashtra,parbhani
+karnataka,tumkur
+telangana,khammam
+puducherry,uzhavarkarai
+bihar,bihar sharif
+haryana,panipat
+bihar,darbhanga
+west bengal,bally
+mizoram,aizawl
+madhya pradesh,dewas
+maharashtra,ichalkaranji
+haryana,karnal
+punjab,bathinda
+maharashtra,jalna
+andhra pradesh,eluru
+west bengal,barasat
+delhi,kirari suleman nagar
+bihar,purnia
+madhya pradesh,satna
+uttar pradesh,mau
+haryana,sonipat
+uttar pradesh,farrukhabad
+chhattisgarh,durg
+manipur,imphal
+madhya pradesh,ratlam
+uttar pradesh,hapur
+bihar,arrah
+andhra pradesh,anantapur
+telangana,karimnagar
+uttar pradesh,etawah
+maharashtra,ambarnath
+west bengal,north dum dum
+rajasthan,bharatpur
+bihar,begusarai
+delhi,new delhi
+gujarat,gandhidham
+west bengal,baranagar
+tamil nadu,tiruvottiyur
+puducherry,pondicherry
+rajasthan,sikar
+tamil nadu,thoothukudi
+madhya pradesh,rewa
+uttar pradesh,mirzapur
+karnataka,raichur
+rajasthan,pali
+telangana,ramagundam
+assam,silchar
+uttarakhand,haridwar
+andhra pradesh,vijayanagaram
+andhra pradesh,tenali
+tamil nadu,nagercoil
+rajasthan,sri ganganagar
+delhi,karawal nagar
+jharkhand,mango
+tamil nadu,thanjavur
+uttar pradesh,bulandshahr
+west bengal,uluberia
+madhya pradesh,katni
+uttar pradesh,sambhal
+madhya pradesh,singrauli
+gujarat,nadiad
+telangana,secunderabad
+west bengal,naihati
+haryana,yamunanagar
+west bengal,bidhannagar
+tamil nadu,pallavaram
+karnataka,bidar
+bihar,munger
+haryana,panchkula
+madhya pradesh,burhanpur
+west bengal,kharagpur
+tamil nadu,dindigul
+gujarat,gandhinagar
+karnataka,hospet
+delhi,nangloi jat
+west bengal,malda
+andhra pradesh,ongole
+jharkhand,deoghar
+bihar,chhapra
+odisha,puri
+west bengal,haldia
+madhya pradesh,khandwa
+andhra pradesh,nandyal
+madhya pradesh,morena
+uttar pradesh,amroha
+gujarat,anand
+madhya pradesh,bhind
+delhi,bhalswa jahangir pur
+west bengal,madhyamgram
+haryana,bhiwani
+west bengal,berhampore
+haryana,ambala
+gujarat,morbi
+uttar pradesh,fatehpur
+uttar pradesh,raebareli
+uttar pradesh,"khora, ghaziabad"
+andhra pradesh,chittoor
+maharashtra,bhusawal
+uttar pradesh,orai
+uttar pradesh,bahraich
+jharkhand,phusro
+tamil nadu,vellore
+gujarat,mehsana
+west bengal,raiganj
+haryana,sirsa
+bihar,danapur
+west bengal,serampore
+delhi,sultan pur majra
+madhya pradesh,guna
+uttar pradesh,jaunpur
+maharashtra,panvel
+madhya pradesh,shivpuri
+gujarat,surendranagar dudhrej
+uttar pradesh,unnao
+west bengal,chinsurah
+kerala,alappuzha
+kerala,kottayam
+andhra pradesh,machilipatnam
+himachal pradesh,shimla
+west bengal,midnapore
+andhra pradesh,adoni
+karnataka,udupi
+bihar,katihar
+andhra pradesh,proddatur
+uttar pradesh,budaun
+telangana,mahbubnagar
+bihar,saharsa
+assam,dibrugarh
+assam,jorhat
+jharkhand,hazaribagh
+andhra pradesh,hindupur
+chhattisgarh,raigarh
+assam,nagaon
+bihar,hajipur
+bihar,sasaram
+jharkhand,giridih
+andhra pradesh,bhimavaram
+andaman and nicobar islands ut,port blair
+tamil nadu,kumbakonam
+assam,bongaigaon
+bihar,dehri
+andhra pradesh,madanapalle
+bihar,siwan
+bihar,bettiah
+jharkhand,ramgarh
+assam,tinsukia
+andhra pradesh,guntakal
+andhra pradesh,srikakulam
+bihar,motihari
+andhra pradesh,dharmavaram
+jharkhand,medininagar
+andhra pradesh,gudivada
+punjab,phagwara
+tamil nadu,pudukkottai
+tamil nadu,hosur
+andhra pradesh,narasaraopet
+telangana,suryapet
+telangana,miryalaguda
+jammu and kashmir,anantnag
+andhra pradesh,tadipatri
+tamil nadu,karaikudi
+bihar,kishanganj
+karnataka,gangavathi
+bihar,jamalpur
+uttar pradesh,ballia
+andhra pradesh,kavali
+andhra pradesh,tadepalligudem
+andhra pradesh,amaravati
+bihar,buxar
+assam,tezpur
+bihar,jehanabad
+bihar,aurangabad
+sikkim,gangtok
+goa,vasco da gama
+indonesia,jakarta
+indonesia,surabaya
+indonesia,bekasi
+indonesia,bandung
+indonesia,medan
+indonesia,depok
+indonesia,tangerang
+indonesia,palembang
+indonesia,semarang
+indonesia,makassar
+indonesia,south tangerang
+indonesia,batam
+indonesia,bandar lampung
+indonesia,bogor
+indonesia,pekanbaru
+indonesia,padang
+indonesia,malang
+indonesia,samarinda
+indonesia,denpasar
+indonesia,tasikmalaya
+indonesia,serang
+indonesia,balikpapan
+indonesia,pontianak
+indonesia,banjarmasin
+indonesia,jambi
+indonesia,cimahi
+indonesia,surakarta
+indonesia,manado
+indonesia,kupang
+indonesia,cilegon
+indonesia,mataram
+indonesia,jayapura
+indonesia,bengkulu
+indonesia,yogyakarta
+indonesia,palu
+indonesia,ambon
+indonesia,sukabumi
+indonesia,kendari
+indonesia,cirebon
+indonesia,dumai
+indonesia,pekalongan
+indonesia,palangka raya
+indonesia,binjai
+indonesia,kediri
+indonesia,sorong
+indonesia,tegal
+indonesia,pematangsiantar
+indonesia,banjarbaru
+indonesia,banda aceh
+indonesia,tarakan
+indonesia,probolinggo
+indonesia,singkawang
+indonesia,lubuklinggau
+indonesia,tanjungpinang
+indonesia,bitung
+indonesia,padang sidempuan
+indonesia,pangkalpinang
+indonesia,batu
+indonesia,pasuruan
+indonesia,ternate
+indonesia,banjar
+indonesia,gorontalo
+indonesia,madiun
+indonesia,prabumulih
+indonesia,salatiga
+indonesia,lhokseumawe
+indonesia,langsa
+indonesia,palopo
+indonesia,bontang
+indonesia,tanjungbalai
+indonesia,tebing tinggi
+indonesia,metro
+indonesia,baubau
+indonesia,bima
+indonesia,parepare
+indonesia,blitar
+indonesia,pagar alam
+indonesia,payakumbuh
+indonesia,gunungsitoli
+indonesia,mojokerto city
+indonesia,kotamobagu
+indonesia,magelang
+indonesia,bukittinggi
+indonesia,tidore
+indonesia,tomohon
+indonesia,sungai penuh
+indonesia,pariaman
+indonesia,subulussalam
+indonesia,sibolga
+indonesia,tual
+indonesia,solok
+indonesia,sawahlunto
+indonesia,padang panjang
+indonesia,sabang
+nigeria,lagos
+nigeria,kano
+nigeria,ibadan
+nigeria,benin city
+nigeria,port harcourt
+nigeria,jos
+nigeria,ilorin
+nigeria,abuja
+nigeria,kaduna
+nigeria,enugu
+nigeria,zaria
+nigeria,ogbomosho
+nigeria,warri
+nigeria,ikorodu
+nigeria,maiduguri
+nigeria,aba
+nigeria,bauchi
+nigeria,akure
+nigeria,abeokuta
+nigeria,oyo
+nigeria,uyo
+nigeria,sokoto
+nigeria,owerri
+nigeria,yola
+nigeria,calabar
+nigeria,ife
+nigeria,umuahia
+nigeria,ondo
+nigeria,minna
+nigeria,lafia
+nigeria,okene
+nigeria,katsina
+nigeria,ikeja
+nigeria,nsukka
+nigeria,ado ekiti
+nigeria,awka
+nigeria,iseyin
+nigeria,mubi
+nigeria,onitsha
+nigeria,sagamu
+nigeria,makurdi
+nigeria,mokwa
+nigeria,badagry
+nigeria,ilesa
+nigeria,gombe
+nigeria,obafemi owode
+nigeria,owo
+nigeria,jimeta
+nigeria,suleja
+nigeria,lavun
+nigeria,potiskum
+nigeria,kukawa
+nigeria,gusau
+nigeria,iwo
+nigeria,bida
+nigeria,ugep
+nigeria,ijebu ode
+nigeria,epe
+nigeria,ise ekiti
+nigeria,gboko
+nigeria,ilawe ekiti
+nigeria,ikare
+nigeria,osogbo
+nigeria,okpoko
+nigeria,garki
+nigeria,sapele
+nigeria,ila
+nigeria,shaki
+nigeria,ijero
+nigeria,ikot ekpene
+nigeria,jalingo
+nigeria,otukpo
+nigeria,okigwe
+nigeria,kisi
+nigeria,buguma
+nigeria,funtua
+nigeria,abakaliki
+nigeria,asaba
+nigeria,gbongan
+nigeria,igboho
+nigeria,gashua
+nigeria,bama
+nigeria,uromi
+roman,roma
+roman,cosa
+roman,ariminum
+roman,belum
+roman,placentia
+roman,tarraco
+roman,italica
+roman,modoetia
+roman,salernum
+roman,bononia
+roman,forum livii
+roman,regium lepidi
+roman,aquileia
+roman,colonia patricia corduba
+roman,ascrivium
+roman,valentia edetanorum
+roman,scalabis
+roman,villa euracini
+roman,palma
+roman,colonia narbo martius
+roman,massa
+roman,pistoria
+roman,confloenta
+roman,gerunda
+roman,pompaelo
+roman,naissus
+roman,brigantium
+roman,florentia
+roman,vesontio
+roman,lutetia parisiorum
+roman,iulia aemona
+roman,atuatuca tungrorum
+roman,iulia romula hispalis
+roman,augusta raurica
+roman,noviodunum
+roman,lugdunum
+roman,siscia
+roman,marsonia
+roman,augusta treverorum
+roman,castra legionis
+roman,nemausus
+roman,augusta taurinorum
+roman,augusta praetoria salassorum
+roman,emerita augusta
+roman,norba caesarina
+roman,lucus augusta
+roman,caesarea
+roman,bracara augusta
+roman,novaesium
+roman,castra vetera 
+roman,pons drusi
+roman,ovilava
+roman,iuvavum
+roman,augusta vindelicorum
+roman,turicum
+roman,asturica augusta
+roman,borbetomagus
+roman,caesaraugusta
+roman,sirmium
+roman,sorviodurum
+roman,mogontiacum
+roman,colonia ulpia traiana 
+roman,argentoratum
+roman,bonna
+roman,noviomagus
+roman,castellum apud confluentes
+roman,divodurum
+roman,caesaromagus
+roman,ambianum
+roman,faventia paterna barcino
+roman,abila
+roman,lousonna
+roman,ulpia noviomagus batavorum
+roman,rigomagus
+roman,aquae mattiacorum
+roman,mursa
+roman,vindonissa
+roman,aventicum
+roman,praetorium agrippinae
+roman,lopodunum
+roman,lugdunum batavorum
+roman,aequum
+roman,camulodunum
+roman,londinium
+roman,albanianis
+roman,lauri
+roman,durovernum cantiacorum
+roman,regulbium
+roman,rutupiae
+roman,novae
+roman,colonia claudia savariensum
+roman,viminacium
+roman,traiectum
+roman,matilo
+roman,forum hadriani
+roman,nigrum pullum
+roman,lindum colonia
+roman,ratae corieltauvorum
+roman,durocobrivis
+roman,colonia agrippina
+roman,durocornovium
+roman,verulamium
+roman,letocetum
+roman,dubris
+roman,danum
+roman,mediolanum
+roman,isca dumnoniorum
+roman,blestium
+roman,viroconium cornoviorum
+roman,aquae sulis
+roman,durnovaria
+roman,lindinis
+roman,ad flexum
+roman,clausentum
+roman,venta belgarum
+roman,calleva atrebatum
+roman,duroliponte
+roman,concangis
+roman,condate
+roman,corinium dobunnorum
+roman,eboracum
+roman,luguvalium
+roman,arae flaviae
+roman,isca augusta
+roman,lagentium
+roman,moridunum
+roman,venta silurum
+roman,deva victrix
+roman,mamucium
+roman,olicana
+roman,vinovia
+roman,inveresk roman fort
+roman,bonames 
+roman,coria
+roman,gerulata
+roman,vindobona
+roman,biriciana
+roman,cannstatt castrum
+roman,colonia nervia glevensium
+roman,sumelocenna
+roman,traiectum ad nicrem
+roman,castra batavar
+roman,nida
+roman,lactodurum
+roman,bovium
+roman,burgodunum
+roman,lentia
+roman,aquae granni
+roman,portus victoriae iuliobrigensium
+roman,complutum
+roman,aeminium
+roman,traiectum ad mosam
+roman,coriovallum
+roman,portus lemanis
+roman,colonia pietas iulia pola pollentia herculanea
+roman,andautonia
+roman,salona
+roman,cibalae
+roman,aquae helveticae
+roman,gesoriacum
+roman,storgosia
+roman,sostra
+roman,nicopolis ad istrum
+roman,aquincum
+roman,nicopolis ad nestum
+roman,apulum
+roman,pons aelius
+roman,durovigutum
+roman,hadrianopolis
+roman,aelia capitolina
+roman,ala
+roman,castra regina
+roman,theranda
+roman,pomaria
+roman,partiscum
+roman,calisia
+roman,aurelia aquensis
+roman,urbs aurelianorum
+roman,constantinopolis
+roman,kovachevsko kale
+roman,venetiae
+roman,ragusium

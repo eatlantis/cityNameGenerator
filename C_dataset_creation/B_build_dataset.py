@@ -1,12 +1,13 @@
 from masterPathAddress import MASTER_PATH
 from model_tools import ModelTools
+from tqdm import tqdm
 import pandas as pd
 import random
 import os
 
-NUM_CITIES_GRABBED_RANGE = [2, 5]
+NUM_CITIES_GRABBED_RANGE = [1, 5]
 CITIES_USED_PER_CIVILIZATION = 250
-MAX_LEN = 70
+MAX_LEN = 15
 
 cities_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '0_cities_list.csv')
 cities_file = pd.read_csv(cities_file_addr)
@@ -20,17 +21,17 @@ for civilization in civilizations:
 
 tokenized_labels = []
 tokenized_values = []
-for civ in civilizations_cities:
+for civ in tqdm(civilizations_cities, desc='Adding Civilization'):
     this_civ_cities = civilizations_cities[civ]
 
-    for _ in range(CITIES_USED_PER_CIVILIZATION):
+    for _ in tqdm(range(CITIES_USED_PER_CIVILIZATION), desc='Adding City Data'):
         random_num_of_cities = random.randint(NUM_CITIES_GRABBED_RANGE[0], NUM_CITIES_GRABBED_RANGE[1])
-        rand_city_list = [civ, ]
+        rand_city_list = []
         while len(rand_city_list) < (random_num_of_cities + 1):
             random_city_index = random.randint(0, len(this_civ_cities) - 1)
             random_city_name = this_civ_cities[random_city_index]
             if str(random_city_name) != 'nan':
-                if random_city_name not in rand_city_list and str(random_city_name) != 'nan':
+                if str(random_city_name) != 'nan':
                     rand_city_list.append(random_city_name)
 
         city_text = ','.join(n for n in rand_city_list)
@@ -46,6 +47,12 @@ for civ in civilizations_cities:
             print('stop')
 
         tokenized_value = tokenized_value[0: label_index]
+        while len(tokenized_value) < MAX_LEN:
+            tokenized_value.insert(0, '')
+
+        if len(tokenized_value) > MAX_LEN:
+            tokenized_value = tokenized_value[-MAX_LEN:]
+
         tokenized_values.append(tokenized_value)
         tokenized_labels.append([civ, label])
 

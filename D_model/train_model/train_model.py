@@ -9,6 +9,9 @@ import numpy as np
 import random
 import sys
 
+MAX_LEN = 15
+
+
 max_encoding_key, labels, data_columns, encoding_dict, rev_encoding_dict = get_dataset()
 
 x_train, x_test, y_train, y_test = train_test_split(data_columns, labels,
@@ -30,7 +33,7 @@ print(y_train.shape)
 # print('Trainable params: {:,}'.format(trainable_count))
 # print('Non-trainable params: {:,}'.format(non_trainable_count))
 
-model_name = 'test2'
+model_name = 'test5'
 model_folder = 'test' if 'test' in model_name else 'main'
 
 model_address = f'../model_store/{model_folder}/{model_name}.hdf5'
@@ -56,12 +59,14 @@ def sample(preds, temperature=1.0):
 
 def on_epoch_end(epoch, _):
     # Function invoked at end of each epoch. Prints generated text.
-    if epoch % 1 == 0:
+    if epoch % 3 == 0:
         print("******************************************************")
         print('----- Generating text after Epoch: %d' % epoch)
 
         random_city_index = random.randint(0, len(x_test) - 1)
         random_city_line = x_test[random_city_index]
+        blank_text = np.zeros(len(random_city_line[0]))
+        blank_text[0] = 1
 
         start_index = random.randint(0, len(x_test) - max_encoding_key - 1)
         for temperature in [0.2, 0.5, 1.0, 1.2]:
@@ -76,11 +81,20 @@ def on_epoch_end(epoch, _):
             word_list = list(random_city_line)
 
             for i in range(15):
-                preds = model.predict(np.array([word_list]), verbose=0)[0]
-                preds = np.where(preds == np.max(preds), 1, 0)
-                word_list.append(preds)
+                entry_word_list = [item for item in word_list]
+                while len(entry_word_list) < MAX_LEN:
+                    entry_word_list.insert(0, 0)
+                if len(entry_word_list) > MAX_LEN:
+                    entry_word_list = entry_word_list[-MAX_LEN:]
+                preds = model.predict(np.array([entry_word_list]), verbose=0)[0]
+                next_index = sample(preds, temperature)
 
-                next_char = encoding_dict[np.argmax(preds)]
+                empty_text = np.zeros(len(random_city_line[0]))
+                empty_text[next_index] = 1
+
+                word_list.append(empty_text)
+
+                next_char = encoding_dict[next_index]
                 generated += next_char
 
                 sys.stdout.write(next_char)
@@ -90,7 +104,7 @@ def on_epoch_end(epoch, _):
 
 print_callback = LambdaCallback(on_epoch_end=on_epoch_end)
 
-model.fit(x_train, y_train, epochs=150, batch_size=128,
+model.fit(x_train, y_train, epochs=5000, batch_size=128, steps_per_epoch=100,
           callbacks=[model_checkpoint, early_stopping, csv_logger, print_callback])
 
 model.save(model_address)
@@ -100,7 +114,6 @@ metrics = 'accuracy'
 
 loss_chart_name = f'./pics/{model_name}_loss.png'
 plt.plot(model.history.history['loss'])
-plt.plot(model.history.history[f'val_loss'])
 plt.ylabel(loss_label)
 plt.xlabel('Epoch')
 plt.legend(['Train', 'Validation'])
@@ -109,7 +122,6 @@ plt.show()
 
 acc_chart_name = f'./pics/{model_name}_acc.png'
 plt.plot(model.history.history[metrics])
-plt.plot(model.history.history[f'val_{metrics}'])
 plt.ylabel('Accuracy')
 plt.xlabel('Epoch')
 plt.legend(['Train', 'Validation'])

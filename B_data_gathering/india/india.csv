@@ -1,0 +1,327 @@
+Rank,city,"Population
+(2011)[3]","Population
+(2001)",civ
+1,Mumbai,12442373,11978450,Maharashtra
+2,Delhi,11007835,9879172,Delhi
+3,Bangalore,8425970,4301326,Karnataka
+4,Hyderabad,6809970,3637483,Telangana
+5,Ahmedabad,5570585,3520085,Gujarat
+6,Chennai,4681087,4343645,Tamil Nadu
+7,Kolkata,4486679,4572876,West Bengal
+8,Surat,4467797,2433835,Gujarat
+9,Pune,3115431,2538473,Maharashtra
+10,Jaipur,3046163,2322575,Rajasthan
+11,Lucknow,2815601,2185927,Uttar Pradesh
+12,Kanpur,2767031,2551337,Uttar Pradesh
+13,Nagpur,2405665,2052066,Maharashtra
+14,Indore,1960631,1474968,Madhya Pradesh
+15,Thane,1818872,1262551,Maharashtra
+16,Bhopal,1795648,1437354,Madhya Pradesh
+17,Visakhapatnam[4],1730320,1345938,Andhra Pradesh
+18,Pimpri-Chinchwad,1727692,1012472,Maharashtra
+19,Patna,1684222,1366444,Bihar
+20,Vadodara,1670806,1306227,Gujarat
+21,Ghaziabad,1648643,968256,Uttar Pradesh
+22,Ludhiana,1618879,1398467,Punjab
+23,Agra,1585704,1275134,Uttar Pradesh
+24,Nashik,1486053,1077236,Maharashtra
+25,Faridabad,1414050,1055938,Haryana
+26,Meerut,1305429,1039405,Uttar Pradesh
+27,Rajkot,1286678,967476,Gujarat
+28,Kalyan-Dombivli,1247327,1193512,Maharashtra
+29,Vasai-Virar,1222390,693350,Maharashtra
+30,Varanasi,1201815,1091918,Uttar Pradesh
+31,Srinagar,1180570,898440,Jammu and Kashmir
+32,Aurangabad,1175116,873311,Maharashtra
+33,Dhanbad,1162472,1065327,Jharkhand
+34,Amritsar,1132383,966862,Punjab
+35,Navi Mumbai,1120547,704002,Maharashtra
+36,Allahabad,1112544,975393,Uttar Pradesh
+37,Howrah,1077075,1007532,West Bengal
+38,Ranchi,1073427,847093,Jharkhand
+39,Gwalior,1069276,827026,Madhya Pradesh
+40,Jabalpur,1055525,932484,Madhya Pradesh
+41,Coimbatore,"1,050,721 [5]",930882,Tamil Nadu
+42,Vijayawada,1034358,851282,Andhra Pradesh
+43,Jodhpur,1033918,851051,Rajasthan
+44,Madurai,1017865,928869,Tamil Nadu
+45,Raipur,1010087,605747,Chhattisgarh
+46,Kota[6],1001694,694316,Rajasthan
+47,Chandigarh,960787,808515,Chandigarh
+48,Guwahati,957352,809895,Assam
+49,Solapur,951558,872478,Maharashtra
+50,Hubli–Dharwad,943788,786195,Karnataka
+51,Mysore[7][8][9],920550,762408,Karnataka
+52,Tiruchirappalli[10],916674,752066,Tamil Nadu
+53,Bareilly,898167,718395,Uttar Pradesh
+54,Aligarh,889810,672315,Uttar Pradesh
+55,Tiruppur,877778,344543,Tamil Nadu
+56,Gurgaon,876824,173542,Haryana
+57,Moradabad,872575,669087,Uttar Pradesh
+58,Jalandhar,862196,706043,Punjab
+59,Bhubaneswar,837737,648032,Odisha
+60,Salem,831038,696760,Tamil Nadu
+61,Warangal[11][12],830281,530636,Telangana
+62,Mira-Bhayandar,814655,520388,Maharashtra
+63,Jalgaon,798514,462280,Maharashtra
+64,Guntur[13],670073,514461,Andhra Pradesh
+65,Thiruvananthapuram,752490,368618,Kerala
+66,Bhiwandi,711329,598741,Maharashtra
+67,Saharanpur,703345,455754,Uttar Pradesh
+68,Gorakhpur,671048,622701,Uttar Pradesh
+69,Bikaner,647804,529690,Rajasthan
+70,Amravati,646801,549510,Maharashtra
+71,Noida,642381,305058,Uttar Pradesh
+72,Jamshedpur,631364,573096,Jharkhand
+73,Bhilai,625697,556366,Chhattisgarh
+74,Cuttack,606007,534654,Odisha
+75,Firozabad,603797,279102,Uttar Pradesh
+76,Kochi,601574,596473,Kerala
+77,Nellore[14][15],558548,378428,Andhra Pradesh
+78,Bhavnagar,593768,511085,Gujarat
+79,Dehradun,578420,426674,Uttarakhand
+80,Durgapur,566937,493405,West Bengal
+81,Asansol,564491,475439,West Bengal
+82,Rourkela,552734,426354,Odisha
+83,Nanded,550564,430733,Maharashtra
+84,Kolhapur,549283,493167,Maharashtra
+85,Ajmer,542580,485575,Rajasthan
+86,Akola,537149,400520,Maharashtra
+87,Gulbarga,532031,422569,Karnataka
+88,Jamnagar,529308,443518,Gujarat
+89,Ujjain,515215,430427,Madhya Pradesh
+90,Loni,512296,120945,Uttar Pradesh
+91,Siliguri,509709,472374,West Bengal
+92,Jhansi,507293,383644,Uttar Pradesh
+93,Ulhasnagar,506937,473731,Maharashtra
+94,Jammu[16],503690,369959,Jammu and Kashmir
+95,Sangli-Miraj & Kupwad,502697,436781,Maharashtra
+96,Mangalore,499486,399565,Karnataka
+97,Erode[17],498129,173600,Tamil Nadu
+98,Belgaum,488292,399653,Karnataka
+99,Kurnool[18],484327,345987,Andhra Pradesh
+100,Ambattur,478134,310967,Tamil Nadu
+101,Rajahmundry[19][20],476873,315251,Andhra Pradesh
+102,Tirunelveli,473637,411831,Tamil Nadu
+103,Malegaon,471006,409403,Maharashtra
+104,Gaya,463454,385432,Bihar
+105,Udaipur,451735,389438,Rajasthan
+106,Karur,444506,158955,Tamil Nadu
+107,Kakinada,443028,325985,Andhra Pradesh
+108,Davanagere,435128,364523,Karnataka
+109,Kozhikode,432097,436556,Kerala
+110,Maheshtala,429423,385266,West Bengal
+111,Rajpur Sonarpur,423806,336707,West Bengal
+112,Bokaro,413934,393805,Jharkhand
+113,South Dum Dum,410524,392444,West Bengal
+114,Bellary,409644,316766,Karnataka
+115,Patiala,405164,303151,Punjab
+116,Gopalpur,404991,271811,West Bengal
+117,Agartala,399688,271811,Tripura
+118,Bhagalpur,398138,340767,Bihar
+119,Muzaffarnagar,392451,316729,Uttar Pradesh
+120,Bhatpara,390467,442385,West Bengal
+121,Panihati,383522,348438,West Bengal
+122,Latur,382754,299985,Maharashtra
+123,Dhule,376093,341755,Maharashtra
+124,Rohtak,373133,286807,Haryana
+125,Sagar,370296,232133,Madhya Pradesh
+126,Korba,363210,315690,Chhattisgarh
+127,Bhilwara,360009,280128,Rajasthan
+128,Berhampur,355823,307792,Odisha
+129,Muzaffarpur,351838,305525,Bihar
+130,Ahmednagar,350905,307615,Maharashtra
+131,Mathura,349336,302770,Uttar Pradesh
+132,Kollam,349033,361560,Kerala
+133,Avadi,344701,229403,Tamil Nadu
+134,Kadapa[21],344893,125725,Andhra Pradesh
+135,Anantapuram[21],340613,255134,Andhra Pradesh
+136,Kamarhati,336579,314507,West Bengal
+137,Bilaspur,335761,296662,Chhattisgarh
+138,Sambalpur,330106,274917,Odisha
+139,Shahjahanpur,327975,296662,Uttar Pradesh
+140,Satara,326789,228175,Maharashtra
+141,Bijapur,326360,228175,Karnataka
+142,Rampur,325248,281494,Uttar Pradesh
+143,Shimoga,322428,274352,Karnataka
+144,Chandrapur,321036,289450,Maharashtra
+145,Junagadh,320250,168686,Gujarat
+146,Thrissur,315596,317526,Kerala
+147,Alwar,315310,260593,Rajasthan
+148,Bardhaman,314638,285602,West Bengal
+149,Kulti,313977,289903,West Bengal
+150,Nizamabad,310467,288722,Telangana
+151,Parbhani,307191,259329,Maharashtra
+152,Tumkur,305821,248929,Karnataka
+153,Khammam,305000,218689,Telangana
+154,Uzhavarkarai,300028,217707,Puducherry
+155,Bihar Sharif,296889,232071,Bihar
+156,Panipat,294150,261740,Haryana
+157,Darbhanga,294116,267348,Bihar
+158,Bally,291972,260906,West Bengal
+159,Aizawl,291822,228280,Mizoram
+160,Dewas,289438,231672,Madhya Pradesh
+161,Ichalkaranji,287570,257610,Maharashtra
+162,Karnal,286974,210476,Haryana
+163,Bathinda,285813,217256,Punjab
+164,Jalna,285349,235795,Maharashtra
+165,Eluru[22],283648,190347,Andhra Pradesh
+166,Barasat,283443,231515,West Bengal
+167,Kirari Suleman Nagar,282598,153874,Delhi
+168,Purnia[23],280547,171687,Bihar
+169,Satna,280248,225464,Madhya Pradesh
+170,Mau,279060,212657,Uttar Pradesh
+171,Sonipat,277053,214974,Haryana
+172,Farrukhabad,275750,228333,Uttar Pradesh
+173,Durg,268679,232517,Chhattisgarh
+174,Imphal,264986,221492,Manipur
+175,Ratlam,264810,222202,Madhya Pradesh
+176,Hapur,262801,211983,Uttar Pradesh
+177,Arrah,261099,203380,Bihar
+178,Anantapur,261004,218808,Andhra Pradesh
+179,Karimnagar,260899,205653,Telangana
+180,Etawah,256838,210453,Uttar Pradesh
+181,Ambarnath,254003,203795,Maharashtra
+182,North Dum Dum,253625,220042,West Bengal
+183,Bharatpur,252109,204587,Rajasthan
+184,Begusarai,251136,93378,Bihar
+185,New Delhi,249998,302147,Delhi
+186,Gandhidham,248705,166388,Gujarat
+187,Baranagar,248466,250768,West Bengal
+188,Tiruvottiyur,248059,212281,Tamil Nadu
+189,Pondicherry,241773,220749,Puducherry
+190,Sikar,237579,184904,Rajasthan
+191,Thoothukudi,237374,216058,Tamil Nadu
+192,Rewa,235422,183274,Madhya Pradesh
+193,Mirzapur,233691,205053,Uttar Pradesh
+194,Raichur,232456,207421,Karnataka
+195,Pali,229956,187641,Rajasthan
+196,Ramagundam[24],229644,236600,Telangana
+197,Silchar,229136,184105,Assam
+198,Haridwar,228832,175010,Uttarakhand
+199,Vijayanagaram,228025,174324,Andhra Pradesh
+200,Tenali,225982,184937,Andhra Pradesh
+201,Nagercoil,224849,208179,Tamil Nadu
+202,Sri Ganganagar,224773,210713,Rajasthan
+203,Karawal Nagar,224666,148549,Delhi
+204,Mango,223805,166125,Jharkhand
+205,Thanjavur,222943,215314,Tamil Nadu
+206,Bulandshahr,222519,176425,Uttar Pradesh
+207,Uluberia,222240,202135,West Bengal
+208,Katni,221883,187029,Madhya Pradesh
+209,Sambhal,220813,182478,Uttar Pradesh
+210,Singrauli,220257,185190,Madhya Pradesh
+211,Nadiad,218095,192913,Gujarat
+212,Secunderabad,217910,206102,Telangana
+213,Naihati,217900,215303,West Bengal
+214,Yamunanagar,216677,189696,Haryana
+215,Bidhannagar,215514,164221,West Bengal
+216,Pallavaram,215417,144623,Tamil Nadu
+217,Bidar,214373,172877,Karnataka
+218,Munger,213303,188050,Bihar
+219,Panchkula,211355,140925,Haryana
+220,Burhanpur,210886,193725,Madhya Pradesh
+221,Kharagpur,207604,188761,West Bengal
+222,Dindigul,207327,196955,Tamil Nadu
+223,Gandhinagar,206167,195985,Gujarat
+224,Hospet,206167,164240,Karnataka
+225,Nangloi Jat,205596,150948,Delhi
+226,Malda,205521,161456,West Bengal
+227,Ongole,204746,150471,Andhra Pradesh
+228,Deoghar,203123,112525,Jharkhand
+229,Chhapra,202352,79190,Bihar
+230,Puri,201026,152682,Odisha
+231,Haldia,200827,170673,West Bengal
+232,Khandwa,200738,172242,Madhya Pradesh
+233,Nandyal,200516,152676,Andhra Pradesh
+234,Morena,200482,150959,Madhya Pradesh
+235,Amroha,198471,165129,Uttar Pradesh
+236,Anand,198282,130685,Gujarat
+237,Bhind,197585,153752,Madhya Pradesh
+238,Bhalswa Jahangir Pur,197148,152339,Delhi
+239,Madhyamgram,196127,155451,West Bengal
+240,Bhiwani,196057,169531,Haryana
+241,Berhampore,195223,160143,West Bengal
+242,Ambala,195153,139279,Haryana
+243,Morbi,194947,145719,Gujarat
+244,Fatehpur,193193,151757,Uttar Pradesh
+245,Raebareli,191316,169333,Uttar Pradesh
+246,"Khora, Ghaziabad",190400,-,Uttar Pradesh
+247,Chittoor[25],189332,152654,Andhra Pradesh
+248,Bhusawal,187421,172372,Maharashtra
+249,Orai,187137,139318,Uttar Pradesh
+250,Bahraich,186223,168323,Uttar Pradesh
+251,Phusro,186139,83463,Jharkhand
+252,Vellore,185803,177230,Tamil Nadu
+253,Mehsana,184991,141453,Gujarat
+254,Raiganj,183612,165212,West Bengal
+255,Sirsa,182534,160735,Haryana
+256,Danapur,182429,131176,Bihar
+257,Serampore,181842,197857,West Bengal
+258,Sultan Pur Majra,181554,164426,Delhi
+259,Guna,180935,137175,Madhya Pradesh
+260,Jaunpur,180362,160055,Uttar Pradesh
+261,Panvel,180020,104058,Maharashtra
+262,Shivpuri,179977,146892,Madhya Pradesh
+263,Surendranagar Dudhrej,177851,156161,Gujarat
+264,Unnao,177658,144662,Uttar Pradesh
+265,Chinsurah,177259,170201,West Bengal
+266,Alappuzha,174164,177029,Kerala
+267,Kottayam,172878,129894,Kerala
+268,Machilipatnam,169892,179353,Andhra Pradesh
+269,Shimla,169578,142555,Himachal Pradesh
+270,Midnapore,169127,149768,West Bengal
+271,Adoni,166537,-,Andhra Pradesh
+272,Udupi,165401,-,Karnataka
+273,Katihar,164937,115169,Bihar
+274,Proddatur,163600,86896,Andhra Pradesh
+275,Budaun,159221,148029,Uttar Pradesh
+276,Mahbubnagar,158000,–,Telangana
+277,Saharsa[26],155175,125167,Bihar
+278,Dibrugarh,154296,137661,Assam
+279,Jorhat,153889,112026,Assam
+280,Hazaribagh,153599,127243,Jharkhand
+281,Hindupur,151835,-,Andhra Pradesh
+282,Raigarh,150019,115908,Chhattisgarh
+283,Nagaon,148496,123265,Assam
+284,Hajipur[27],147688,119412,Bihar
+285,Sasaram[28],147396,131172,Bihar
+286,Giridih,143529,-,Jharkhand
+287,Bhimavaram,142280,-,Andhra Pradesh
+288,Port Blair,140572,—,Andaman and Nicobar Islands UT
+289,Kumbakonam,140056,144021,Tamil Nadu
+290,Bongaigaon,139650,101213,Assam
+291,Dehri[28],137068,119057,Bihar
+292,Madanapalle,135669,-,Andhra Pradesh
+293,Siwan[29],134458,109919,Bihar
+294,Bettiah[30],132896,116670,Bihar
+295,Ramgarh,132441,73455,Jharkhand
+296,Tinsukia,126389,101957,Assam
+297,Guntakal,126270,-,Andhra Pradesh
+298,Srikakulam,125939,-,Andhra Pradesh
+299,Motihari[31],125183,100683,Bihar
+300,Dharmavaram,121874,-,Andhra Pradesh
+301,Medininagar,120325,-,Jharkhand
+302,Gudivada,118167,-,Andhra Pradesh
+303,Phagwara,117966,-,Punjab
+304,Pudukkottai,117745,-,Tamil Nadu
+305,Hosur,116821,102000,Tamil Nadu
+306,Narasaraopet,116250,-,Andhra Pradesh
+307,Suryapet,115250,94585,Telangana
+308,Miryalaguda,109891,91395,Telangana
+309,Anantnag,108505,-,Jammu and Kashmir
+310,Tadipatri,108171,-,Andhra Pradesh
+311,Karaikudi,106714,86596,Tamil Nadu
+312,Kishanganj[32],105782,85590,Bihar
+313,Gangavathi,105529,85459,Karnataka
+314,Jamalpur[33],105221,96983,Bihar
+315,Ballia,104271,-,Uttar Pradesh
+316,Kavali,104000,-,Andhra Pradesh
+317,Tadepalligudem,103906,-,Andhra Pradesh
+318,Amaravati,103000,-,Andhra Pradesh
+319,Buxar[34],102591,83168,Bihar
+320,Tezpur,102505,83028,Assam
+321,Jehanabad[35],102456,81503,Bihar
+322,Aurangabad[36],101520,79393,Bihar
+323,Gangtok,100286,29354,Sikkim
+324,Vasco Da Gama,100000,-,Goa

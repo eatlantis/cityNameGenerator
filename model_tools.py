@@ -35,6 +35,9 @@ class ModelTools:
                         text_tokens.append(token)
         while len(text_tokens) < max_len:
             text_tokens.append('')
+
+        if len(text_tokens) > max_len:
+            text_tokens = text_tokens[-70:]
         # text_tokens.append(ModelTools.TEXT_END_TOKEN)
         return text_tokens
 

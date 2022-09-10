@@ -11,8 +11,8 @@ from keras import backend as keras
 
 
 def get_model(num_inputs, pretrained_weights=None):
-    input_size = (1, num_inputs)
-    inputs = Input(input_size)
+    input_size = (70, 1)
+    # inputs = Input(input_size)
     model = Sequential()
     model.add(LSTM(150))
     model.add(Dense(num_inputs, activation='softmax'))
