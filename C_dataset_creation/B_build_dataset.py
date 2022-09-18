@@ -1,5 +1,6 @@
 from masterPathAddress import MASTER_PATH
 from model_tools import ModelTools
+from global_vars import INPUT_LEN
 from tqdm import tqdm
 import pandas as pd
 import random
@@ -7,7 +8,7 @@ import os
 
 NUM_CITIES_GRABBED_RANGE = [1, 5]
 CITIES_USED_PER_CIVILIZATION = 500
-MAX_LEN = 15
+MAX_LEN = INPUT_LEN
 
 cities_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '0_cities_list.csv')
 cities_file = pd.read_csv(cities_file_addr)

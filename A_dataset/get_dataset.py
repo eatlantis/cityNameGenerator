@@ -1,4 +1,5 @@
 from masterPathAddress import MASTER_PATH
+from global_vars import INPUT_LEN
 import pandas as pd
 import numpy as np
 import os
@@ -8,7 +9,7 @@ encoded_dataset_labels_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '3_bal
 word_encodings_addr = os.path.join(MASTER_PATH, 'A_dataset', '2a_word_count_file.csv')
 
 MAX_LABEL_LEN = 1
-MAX_VALUE_LEN = 15
+MAX_VALUE_LEN = INPUT_LEN
 
 
 def get_dataset():
@@ -45,7 +46,7 @@ def prepare_line(line, is_label=False, two_d=False, max_values=None):
 
     line = list(line)
     while len(line) < line_len:
-        line.append(0)
+        line.insert(0, 0)
 
     if len(line) > line_len:
         line = line[-line_len:]
