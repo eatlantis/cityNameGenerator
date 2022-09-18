@@ -40,10 +40,10 @@ class ModelTools:
                     if char != ',' or prev_char != ',':
                         text_tokens.append(token)
         while len(text_tokens) < max_len:
-            text_tokens.append('')
+            text_tokens.insert(0, '')
 
         if len(text_tokens) > max_len:
-            text_tokens = text_tokens[-70:]
+            text_tokens = text_tokens[-max_len:]
         # text_tokens.append(ModelTools.TEXT_END_TOKEN)
         return text_tokens
 

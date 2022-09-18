@@ -5,11 +5,12 @@ from keras.callbacks import EarlyStopping
 from keras.callbacks import CSVLogger
 from A_dataset.get_dataset import get_dataset
 from D_model.model import get_model
+from global_vars import INPUT_LEN
 import numpy as np
 import random
 import sys
 
-MAX_LEN = 15
+MAX_LEN = INPUT_LEN
 
 
 max_encoding_key, labels, data_columns, encoding_dict, rev_encoding_dict = get_dataset()
@@ -33,7 +34,7 @@ print(y_train.shape)
 # print('Trainable params: {:,}'.format(trainable_count))
 # print('Non-trainable params: {:,}'.format(non_trainable_count))
 
-model_name = 'main2'
+model_name = 'test6'
 model_folder = 'test' if 'test' in model_name else 'main'
 
 model_address = f'../model_store/{model_folder}/{model_name}.hdf5'

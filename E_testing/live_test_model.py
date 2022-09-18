@@ -3,18 +3,20 @@ from model_tools import ModelTools
 from D_model.get_model import CityNameGenerator
 
 from masterPathAddress import MASTER_PATH
+from global_vars import INPUT_LEN
 import pandas as pd
 import numpy as np
 import sys
 import os
 
-MAX_LEN = 15
+MAX_LEN = INPUT_LEN
 word_encodings_addr = os.path.join(MASTER_PATH, 'A_dataset', '2a_word_count_file.csv')
 word_encodings = pd.read_csv(word_encodings_addr)
 word_encodings = word_encodings.replace({np.nan: ''}, inplace=False)
 encoding_dict = {word_encodings.loc[row_index, 'token_key']: word_encodings.loc[row_index, 'token_value']
                  for row_index in list(word_encodings.index)}
 encoding_dict[0] = ''
+rev_encoding_dict = {encoding_dict[key]: key for key in encoding_dict}
 max_encoding_key = max(word_encodings['token_key'])
 
 name_generator = CityNameGenerator()
@@ -38,15 +40,16 @@ while True:
     cities_list = input()
 
     tokenized_cities = ModelTools.tokenize_text(cities_list, MAX_LEN, ind_chars=True)
-    model_input = list(prepare_line([tokenized_cities], is_label=False, two_d=True, max_values=max_encoding_key))
+    cities_token_values = [rev_encoding_dict[letter] for letter in tokenized_cities]
+    model_input = list(prepare_line(cities_token_values, is_label=False, two_d=True, max_values=max_encoding_key))
 
     generated = cities_list
     print(f'Input: {cities_list}\n')
     print(generated)
 
     for _ in range(20):
-        if len(model_input) > 15:
-            model_input = model_input[-15:]
+        if len(model_input) > MAX_LEN:
+            model_input = model_input[-MAX_LEN:]
         prediction = name_generator.predict(np.array(model_input))[0]
         next_index = sample(prediction, 1)
 
