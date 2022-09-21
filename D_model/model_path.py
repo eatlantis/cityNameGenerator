@@ -1,7 +1,7 @@
 from masterPathAddress import MASTER_PATH
 import os
 
-ACTIVE_MODEL = 'test6.hdf5'
+ACTIVE_MODEL = 'test7.hdf5'
 
 
 model_folder = 'test' if 'test' in ACTIVE_MODEL else 'main'

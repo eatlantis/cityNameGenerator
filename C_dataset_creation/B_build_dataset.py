@@ -6,7 +6,7 @@ import pandas as pd
 import random
 import os
 
-NUM_CITIES_GRABBED_RANGE = [1, 5]
+NUM_CITIES_GRABBED_RANGE = [1, 10]
 CITIES_USED_PER_CIVILIZATION = 500
 MAX_LEN = INPUT_LEN
 
