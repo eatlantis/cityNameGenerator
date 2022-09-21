@@ -34,7 +34,7 @@ print(y_train.shape)
 # print('Trainable params: {:,}'.format(trainable_count))
 # print('Non-trainable params: {:,}'.format(non_trainable_count))
 
-model_name = 'test6'
+model_name = 'test7'
 model_folder = 'test' if 'test' in model_name else 'main'
 
 model_address = f'../model_store/{model_folder}/{model_name}.hdf5'
@@ -42,7 +42,8 @@ log_address = f'./logs/{model_name}.csv'
 
 model_checkpoint = ModelCheckpoint(model_address,
                                    monitor='loss', verbose=1, save_best_only=True)
-early_stopping = EarlyStopping(monitor=f'loss', patience=15, min_delta=0.0001)
+early_stopping = EarlyStopping(monitor=f'loss', patience=20
+                               , min_delta=0.0001)
 csv_logger = CSVLogger(log_address, append=True, separator=',')
 
 model = get_model(max_encoding_key)
