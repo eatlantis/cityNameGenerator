@@ -45,9 +45,10 @@ while True:
 
     generated = cities_list
     print(f'Input: {cities_list}\n')
-    print(generated)
-
-    for _ in range(20):
+    sys.stdout.write('\t')
+    sys.stdout.flush()
+    cities_genned = 0
+    while cities_genned < 5:
         if len(model_input) > MAX_LEN:
             model_input = model_input[-MAX_LEN:]
         prediction = name_generator.predict(np.array(model_input))[0]
@@ -61,6 +62,11 @@ while True:
         next_char = encoding_dict[next_index]
         generated += next_char
 
-        sys.stdout.write(next_char)
-        sys.stdout.flush()
+        if next_char == ',':
+            cities_genned += 1
+            sys.stdout.write('\n\t')
+            sys.stdout.flush()
 
+        if next_char != ',':
+            sys.stdout.write(next_char)
+            sys.stdout.flush()
