@@ -4,6 +4,17 @@ import pandas as pd
 import numpy as np
 import os
 
+USED_BALANCED = False
+
+encoded_dataset_labels_file_name = '2_encoded_dataset_labels.csv'
+encoded_dataset_values_file_name = '2_encoded_dataset_values.csv'
+
+balanced_dataset_labels_file_name = '3_balanced_dataset_labels.csv'
+balanced_dataset_values_file_name = '3_balanced_dataset_values.csv'
+
+labels_file_name = balanced_dataset_labels_file_name if USED_BALANCED is True else encoded_dataset_labels_file_name
+values_file_name = balanced_dataset_values_file_name if USED_BALANCED is True else encoded_dataset_values_file_name
+
 encoded_dataset_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '3_balanced_dataset_values.csv')
 encoded_dataset_labels_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '3_balanced_dataset_labels.csv')
 word_encodings_addr = os.path.join(MASTER_PATH, 'A_dataset', '2a_word_count_file.csv')

@@ -6,8 +6,8 @@ import pandas as pd
 import random
 import os
 
-NUM_CITIES_GRABBED_RANGE = [1, 10]
-CITIES_USED_PER_CIVILIZATION = 500
+NUM_CITIES_GRABBED_RANGE = [2, 10]
+CITIES_USED_PER_CIVILIZATION = 2000
 MAX_LEN = INPUT_LEN
 
 cities_file_addr = os.path.join(MASTER_PATH, 'A_dataset', '0_cities_list.csv')
@@ -22,10 +22,10 @@ for civilization in civilizations:
 
 tokenized_labels = []
 tokenized_values = []
-for civ in tqdm(civilizations_cities, desc='Adding Civilization'):
+for civ in tqdm(civilizations_cities, desc='Adding Civilizations'):
     this_civ_cities = civilizations_cities[civ]
     if len(this_civ_cities) > 10:
-        for _ in tqdm(range(CITIES_USED_PER_CIVILIZATION), desc='Adding City Data'):
+        for _ in range(CITIES_USED_PER_CIVILIZATION):
             random_num_of_cities = random.randint(NUM_CITIES_GRABBED_RANGE[0], NUM_CITIES_GRABBED_RANGE[1])
             rand_city_list = []
             while len(rand_city_list) < (random_num_of_cities + 1):
@@ -41,7 +41,7 @@ for civ in tqdm(civilizations_cities, desc='Adding Civilization'):
             tokenized_value = ModelTools.tokenize_text(city_text, MAX_LEN, ind_chars=True)
             num_tokens = len(tokenized_value)
 
-            label_index = random.randint(int(num_tokens * 0.5), num_tokens - 1)
+            label_index = random.randint(int(num_tokens * 0.5), int(num_tokens * 0.8))
             label = tokenized_value[label_index]
 
             if len(tokenized_values) != len(tokenized_labels):

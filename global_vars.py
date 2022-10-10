@@ -1,1 +1,1 @@
-INPUT_LEN = 60
+INPUT_LEN = 25

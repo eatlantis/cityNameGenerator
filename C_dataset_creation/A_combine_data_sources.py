@@ -1,6 +1,7 @@
 from masterPathAddress import MASTER_PATH
 from tqdm import tqdm
 import pandas as pd
+import unidecode
 import os
 
 data_sources_folder_addr = os.path.join(MASTER_PATH, 'B_data_gathering')
@@ -38,6 +39,7 @@ def clean_word(list_word):
     for rem_w in chars_to_remove:
         if rem_w in list_word:
             list_word = list_word.replace(rem_w, '')
+    list_word = unidecode.unidecode(list_word)
     return list_word
 
 
@@ -46,7 +48,7 @@ for source_name in tqdm(data_sources_folder_contents, desc="Combine Sources"):
 
     source_file_name = f'{source_name}.csv'
     source_contents = os.listdir(source_addr)
-    if source_file_name in source_contents:
+    if source_file_name in source_contents and source_name == 'v2':
         source_file_addr = os.path.join(source_addr, source_file_name)
         dataset = pd.read_csv(source_file_addr, encoding='latin')
         dataset = dataset.filter(items=file_columns)
